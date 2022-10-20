@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+html {
+	width: 100%; /*ширина сайта по окну браузера*/
+	font-family: arial, "sans-serif";
+}	
+* {		
+	padding: 0; /* убираем оступ внутрь контейнера*/
+	margin: 0; /*убрать отступ снаружи*/
+}
+.redact {
+	width: 68%; /*ширина окна с текстом*/
+	margin: 0 auto; /*благодаря этому все посередине*/
+}
+div {
+	border: 1px solid transparent;
+	box-sizing: border-box; /*чтобы ширина и высота включали в себя границы и поля*/
+}
+header {
+	background-image: url("image/bg.jpg"); /*фон верхушки*/
+	background-size: 100%; /*растягиваем изображение по окну браузера*/
+	background-repeat: no-repeat; /*без повтора изображения*/
+	background-position: top / center; /*сверху и по середине фон/*/
+}
+.logo {
+	margin-top: 4vw;
+	width: 6.4rem;
+	margin-left: 1rem;          /*17vw;*/
+	float: left; 			/*чтобы был слева*/ 
+}
+.menu {
+	float: right;		/*правое положеине всего мен*/
+	list-style-type: none; /*убрать емаркеры*/
+	padding: 0px;   		/*обнулить отступ у списка*/
+	margin-top: 4vw; /*верхний край для всего меню*/
+}
+.menu li {
+	float: left; /*чтобы элементы списка были в строчку*/
+	/*margin-left: 2.2vw; /*расстояние между словами*/	
+}
+.menu a {
+	display: block; /*делает элемент блочным*/
+	color: white; 
+	text-decoration: none; /*убрали подчеркивание ссоыки*/
+	text-transform: uppercase;	/*все буквы большие*/
+	font-size: 1.1rem;
+	padding: 1vw;
+}
+.fix {
+	padding-bottom: 1%; /*мой способ сделать край после того как он исчез из=за float*/
+/*	content: '';		
+	display: table;
+	width: 100%;
+	clear: both;    */
+}
+.title_1 {
+	font-size: 2.83rem;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 27%;
+	margin-bottom: 2%;
+}
+h1.q1 {
+	font-size: 4.8rem;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 1.5%;
+	font-weight: bold;
+}
+.button {
+	background-color: #fed136;
+	color: #2B2525;
+	border-radius: 0.4rem;
+	display: block;
+	width: 16.5rem;
+	padding: 1.15rem 0 1.15rem 0;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	margin-top: 5.5%;
+	margin-bottom: 17%;
+	font-weight: bold;
+}
+
+.back_2 {
+	background: #ffffff;
+}
+.zago {
+	text-align: center;
+	line-height: 2rem;
+	margin-top: 8%;
+}
+.zago h1 {
+	text-transform: uppercase;
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+.zago p {
+	font-size: 1rem;
+	margin-bottom: 3%
+}
+div.inline {
+	display: table;
+	margin: 0 auto;
+	margin: 3% 0 10% 0;
+}
+.zag {
+	display: table-cell;
+	font-size: 0.9rem;
+	width: 10%;
+	padding: 0;
+	text-align: center;
+	line-height: 1.5rem;
+}
+.zag h2 {
+	font-weight: bold;
+}
+div.ico {
+	margin-bottom: 10%;
+}
+
+.back_3 {
+	background-color: #f7f7f7;	
+}
+.back_3 .zag {
+	padding: 3% 0 10% 0;
+}
+
+.back_5 {
+	background-color: #fffffff;
+
+}
+.table {
+	display: table;
+	margin: 0 auto;
+	text-align: top;
+	font-size: medium;
+	width: 100%;
+	margin-bottom: 9%;
+	line-height: 1.5rem;
+
+}
+.cell {
+	display: table-cell;
+	vertical-align: middle;
+	width: 40%;
+	margin: 0;
+		
+}
+.text1 {
+	text-align: right;	
+}
+.text2 {
+	text-align: left;
+}
+.photo {
+	width: 10%;
+	text-align: center;
+}
+
+@media (min-width: 40cm) {
+	* {font-size: 125%;}
+	.cell { font-size: large;}
+}
+@media (max-width: 45cm) {
+	* {font-size: medium;}
+}
+@media (max-width: 33cm) {
+	* {font-size: small;}
+
+}
+
+
+
+
+
+
+
+
+
+
