@@ -1,13 +1,218 @@
-<!doctype html>	<!--Практика-->
-<html lang="ru"> <!--указание языка страницы-->
-<head>
-	<meta charset="utf-8"> <!-- обязательная кодировка--> 	
-<!--	<link rel="stylesheet" -->
-<!--		  href="index.css"> &lt;!&ndash;ссылка на css и указание на ип информации в css файле&ndash;&gt;-->
-	<title>Web_telergam</title> <!--заголовок шапки сайта-->
-</head>
-<body>
-	<p> Люблю тебя солнце!!!</p>
 
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        Контроль БА
+    </title>
+
+    <style>
+
+        body {
+            background-color: #FFCCFF;
+            font-family: Verdana;
+            text-align: center;
+        }
+
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+
+        /* Styling Button */
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Контроль БА</h1>
+
+    <!-- Create Form -->
+    <form id="form">
+
+        <!-- Details -->
+<div class="form-control">
+            <label>
+                В среднем как часто за последнюю неделю вы просыпались ночью и-за приступа астмы?
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Никогда</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Очень редко</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Несколько раз</input>
+            </label>
+            <label for="recommed-4">
+                <input type="radio"
+                       id="recommed-4"
+                       name="recommed">Много раз</input>
+            </label>
+            <label for="recommed-5">
+                <input type="radio"
+                       id="recommed-5"
+                       name="recommed">Очень много раз</input>
+            </label>
+            <label for="recommed-6">
+                <input type="radio"
+                       id="recommed-6"
+                       name="recommed">Не смог(ла) уснуть</input>
+            </label>
+
+            <label>
+                В среднем насколько сильны были симптомы астмы, когда вы просыпались утром в течение последней недели?
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Симптомов не было</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Очень слабые симптомы</input>
+            </label>
+            <label for="recommed-7">
+                <input type="radio"
+                       id="recommed-7"
+                       name="recommed">Слабые симптомы</input>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Умеренные симптомы</input>
+            </label>
+            <label for="recommed-4">
+                <input type="radio"
+                       id="recommed-4"
+                       name="recommed">Довольно сильные симптомы</input>
+            </label>
+            <label for="recommed-5">
+                <input type="radio"
+                       id="recommed-5"
+                       name="recommed">Сильные симптомы</input>
+            </label>
+            <label for="recommed-6">
+                <input type="radio"
+                       id="recommed-6"
+                       name="recommed">Очень сильные симптомы</input>
+            </label>
+
+
+
+
+            <label>
+                В целом насколько вы были ограничены в своих профессиональных и повседневных занятиях из-за астмы в течение последней недели?
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Совсем не ограничен(а)</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Чуть-чуть ограниче(а)</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Немного ограниче(а)</input>
+            </label>
+            <label for="recommed-4">
+                <input type="radio"
+                       id="recommed-4"
+                       name="recommed">Умеренно ограничен(а)</input>
+            </label>
+            <label for="recommed-5">
+                <input type="radio"
+                       id="recommed-5"
+                       name="recommed">Очень ограничен(а)</input>
+            </label>
+            <label for="recommed-6">
+                <input type="radio"
+                       id="recommed-6"
+                       name="recommed">Чрезвычайно ограничен(а)</input>
+            </label>
+            <label for="recommed-7">
+                <input type="radio"
+                       id="recommed-7"
+                       name="recommed">Полностью ограниче(а)</input>
+            </label>
+
+        </div>
+
+            <!-- multi-line text input control -->
+
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
 </body>
+
 </html>
